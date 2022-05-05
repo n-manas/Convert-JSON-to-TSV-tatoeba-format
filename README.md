@@ -16,8 +16,21 @@ The json array looks like this (downloaded from: https://sentencesearch.neocitie
     "audio_jap": "jlpt-tango/n5/Tango_N5_0002.mp3",
     "jap": "私はスミスです。",
     "eng": "I am Smith."
+  },
+  {
+    "source": "jlpt-tango/n5",
+    "audio_jap": "jlpt-tango/n5/Tango_N5_0003.mp3",
+    "jap": "ⓐ「トムさんですか。」\nⓑ「はい。」",
+    "eng": "ⓐ \"Are you Tom?\"\nⓑ \"Yes.\""
   }
 ]
+```
+
+The final file looks like this:
+```
+0	jpn	私はアンです。
+1	jpn	私はスミスです。
+2	jpn	ⓐ「トムさんですか。」\nⓑ「はい。」
 ```
 
 To use it, simply modify the filenames accordingly and run it.
